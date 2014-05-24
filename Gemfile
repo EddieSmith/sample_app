@@ -20,11 +20,13 @@ group :assets do
 end
 
 group :test do
+  gem 'selenium-webdriver'
     gem 'capybara'
 end
 
 group :production do
   gem 'pg'
+  gem 'rails-12factor'
 end
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
