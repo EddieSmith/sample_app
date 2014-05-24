@@ -26,7 +26,7 @@ end
 
 group :production do
   gem 'pg'
-  gem 'rails-12factor'
+  gem 'rails_12factor'
 end
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
